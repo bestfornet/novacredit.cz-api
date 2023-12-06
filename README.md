@@ -31,12 +31,12 @@ Get the fields to form (type, title, required), price configurator data by loan_
 $form->getFormData();
 ```
 
-Set the fields to form:
+Set the fields to form (installments type):
 
 ```php
 $form->addField('loan_amount', '15000,- Kč');
 $form->addField('loan_cost', '11508,- Kč');
-$form->addField('number_installments', '6');
+$form->addField('number_installments', 6);
 $form->addField('loan_total', '26508,- Kč');
 $form->addField('loan_return', '06.06.2024');
 $form->addField('name', 'Pepa');
@@ -52,14 +52,14 @@ $form->addField('contact_city', 'Plzeň 6');
 $form->addField('contact_zip_code', '32174');
 $form->addField('email', 'vas.email@seznam.cz');
 $form->addField('mobile', '777666555');
-$form->addField('property_owner', '1');
+$form->addField('property_owner', 1);
 $form->addField('property_owner_description', 'WV Passat 2015');
-$form->addField('motor_vehicle_owner', '0');
+$form->addField('motor_vehicle_owner', 0);
 $form->addField('motor_vehicle_owner_description', '');
 $form->addField('account_number', '77741162/0100');
 ```
 
-Data payload fields
+Data payload fields (installments type)
 -------------------
 
 To be able to send form, you have to provide all the required information in the form.
