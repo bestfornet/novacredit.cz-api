@@ -14,7 +14,7 @@ Usage
 Initialize class `NovacreditForm` using
 ['your API key'](mailto:martin.tuma@bestfornet.cz) (you need to send an email with request for final API key), for testing purposes, you can use these credentials:
 
-- **API key:** `64a5a3ed70feb41dcd5889edf1e3db6d`
+- **API key (only for testing):** `64a5a3ed70feb41dcd5889edf1e3db6d`
 
 ```php
 require_once __DIR__ . '/classes/NovacreditForm.php';
